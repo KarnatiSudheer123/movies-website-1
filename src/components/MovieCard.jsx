@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/MovieCard.css";
+import "styles/MovieCard.css";
 const MovieCard = ({movie,openModal}) => {
     return (
         <div className='movie-card' key={movie.id} onClick={()=>openModal(movie)}>
