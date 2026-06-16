@@ -1,9 +1,9 @@
 import React,{ useState,useEffect } from "react";
-import "./App.css";
-import MovieCard from "./components/MovieCard";
-import MovieModal from "./components/MovieModal";
-import mockMovies from "./assets/Data/JS mockMovies";
-import Header from "./components/Header";
+import "App.css";
+import MovieCard from "components/MovieCard";
+import MovieModal from "components/MovieModal";
+import mockMovies from "assets/Data/JS mockMovies";
+import Header from "components/Header";
 
 const MOVIES_INITIAL = 20;
 const MOVIES_PER_LOAD = 10;
