@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Header.css";
+import "styles/Header.css";
 const Header = ({searchTerm,setSearchTerm,sortYear,setSortYear,darkMode,setDarkMode}) => {
     return (
         <header>
